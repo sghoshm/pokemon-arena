@@ -1,8 +1,53 @@
-# React + Vite
+# 🕹️ Pokémon Arena – Turn-Based Battle Game
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A retro-style Pokémon battle simulator built with **React** and **Vite**, inspired by classic Pokémon games.  
+Choose a Pokémon, battle an AI opponent, manage attack accuracy and limited uses, and win by reducing the opponent’s HP to zero.
 
-Currently, two official plugins are available:
+🌐 **Live Demo:** https://pokemonsan.netlify.app/  
+📦 **Repository:** https://github.com/sghoshm/pokemon-arena
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
+
+## 📖 Overview
+
+Pokémon Arena is a browser-based turn-by-turn battle game where:
+- The player selects a Pokémon
+- An AI opponent is chosen randomly
+- Each Pokémon has unique attacks with damage, accuracy, and limited uses
+- Battles include animations, sound effects, and a live battle log
+- Styled using **NES.css** for a retro Nintendo-like feel
+
+---
+
+## 🎮 Gameplay Flow
+
+1. **Selection Phase**
+   - Player selects a Pokémon
+   - Opponent Pokémon is randomly assigned
+
+2. **Battle Phase**
+   - Player chooses an attack
+   - Accuracy determines hit or miss
+   - Damage reduces opponent HP
+   - Turns alternate automatically
+
+3. **Win Condition**
+   - First Pokémon to reach **0 HP loses**
+
+4. **Reset**
+   - Restart the game and select new Pokémon
+
+---
+
+## ⚙️ Tech Stack
+
+- **React** – UI & state management
+- **Vite** – Fast build & dev environment
+- **NES.css** – Retro UI styling
+- **CSS** – Animations, layout, HP bars
+- **Netlify** – Deployment & hosting
+
+---
+
+## 📁 Project Structure
+
