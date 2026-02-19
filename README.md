@@ -51,3 +51,113 @@ Pokémon Arena is a browser-based turn-by-turn battle game where:
 
 ## 📁 Project Structure
 
+pokemon-arena/
+├── index.html
+├── src/
+│ ├── main.jsx
+│ ├── App.jsx
+│ ├── App.css
+│ ├── pokemonData.js
+│ └── assets/
+│ └── sounds/
+│ └── attack.mp3
+└── README.md
+
+
+---
+
+## 🧩 File Breakdown
+
+### `index.html`
+- Root HTML file
+- Contains `<div id="root"></div>`
+- Loads NES.css via CDN
+
+### `main.jsx`
+- React entry point
+- Renders the `App` component
+- Uses `React.StrictMode` for development checks
+
+### `pokemonData.js`
+- Contains Pokémon data
+- Each Pokémon includes:
+  - Name
+  - HP
+  - Sprite
+  - Attacks (damage, accuracy, uses)
+
+### `App.jsx`
+Handles all game logic:
+- Pokémon selection
+- Turn-based combat
+- Attack accuracy & damage
+- Battle logs
+- Win detection
+- Game reset
+
+### `App.css`
+- Battle arena layout
+- HP bar animations
+- Attack shake effects
+- Retro-themed UI adjustments
+
+---
+
+## 🧠 Game Logic
+
+- Attacks consume **limited uses**
+- Accuracy determines hit or miss
+- Damage reduces HP (never below 0)
+- AI randomly selects valid attacks
+- 1-second delays simulate turn flow
+
+---
+
+## 🔊 Audio
+
+- Attack sound plays on each move
+- Managed via `useRef`
+- Enhances battle feedback
+
+---
+
+## 📝 Battle Log
+
+- Displays all actions during battle
+- Updates in real time
+- Styled using NES.css lists
+- Safe rendering (controlled content only)
+
+---
+
+## 🚀 Deployment
+
+Hosted on **Netlify**  
+🔗 https://pokemonsan.netlify.app/
+
+---
+
+## 🔮 Future Enhancements
+
+- Responsive & centered layout
+- Status effects (poison, burn, etc.)
+- Multiple Pokémon per trainer
+- Abilities and special moves
+- Mobile support
+- Multiplayer battles
+
+---
+
+## ⚠️ Disclaimer
+
+This project is for **educational and personal use only**.  
+Pokémon names, sprites, and concepts are owned by **Nintendo / Game Freak**.
+
+---
+
+## 👤 Author
+
+**Sumon Ghosh**  
+GitHub: https://github.com/sghoshm
+
+⭐ If you like this project, consider starring the repository!
