@@ -29,14 +29,22 @@ body {
     min-height: 100vh;
     display: flex;
     justify-content: center;
+<<<<<<< HEAD
     align-items: flex-start;
+=======
+    align-items: center;
+>>>>>>> 09b4fae (final v3)
 }
 
 #root {
     width: 100%;
     display: flex;
     justify-content: center;
+<<<<<<< HEAD
     align-items: flex-start;
+=======
+    align-items: center;
+>>>>>>> 09b4fae (final v3)
 }
 
 h1 {

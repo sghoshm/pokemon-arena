@@ -747,6 +747,7 @@ body {
   }
 }
 
+<<<<<<< HEAD
 /* Mobile Responsive Design */
 @media (max-width: 1024px) {
   .battle-screen {
@@ -1013,6 +1014,8 @@ body {
   }
 }
 
+=======
+>>>>>>> 09b4fae (final v3)
 /* Accessibility */
 @media (prefers-reduced-motion: reduce) {
   * {
